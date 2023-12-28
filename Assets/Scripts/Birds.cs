@@ -7,7 +7,8 @@ public enum BirdState
 {
     Waiting,
     BeforeShot,
-    AfterShot
+    AfterShot,
+    WaitToDie
 }
 
 public class Birds : MonoBehaviour
@@ -39,6 +40,9 @@ public class Birds : MonoBehaviour
                 MoveControl();
                 break;
             case BirdState.AfterShot:
+                StopControl();
+                break;
+            case BirdState.WaitToDie:
                 break;
             default:
                 break;
@@ -94,5 +98,29 @@ public class Birds : MonoBehaviour
     {
         rgd.bodyType = RigidbodyType2D.Dynamic;
         rgd.velocity = (SlingShot.instance.GetcenterPoint() - transform.position).normalized * flySpeed;
+        BirdState = BirdState.AfterShot;
     }
+
+    public void GoStage(Vector3 position)
+    {
+        BirdState = BirdState.BeforeShot;
+        transform.position = position;
+    }
+    private void StopControl()
+    {
+        if (rgd.velocity.magnitude < 0.1f)
+        {
+            BirdState = BirdState.WaitToDie;
+            Invoke("LoadNextBird", 1f);
+            
+        }
+    }
+
+    private void LoadNextBird()
+    {
+        Destroy(gameObject);
+        GameObject.Instantiate(Resources.Load("Boom1"), transform.position, Quaternion.identity);
+        GameManager.Instance.LoadNextBird();
+    }
+
 }

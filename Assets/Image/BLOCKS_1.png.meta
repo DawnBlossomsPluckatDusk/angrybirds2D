@@ -207,10 +207,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BLOCKS_1_4
+      name: Cube1
       rect:
         serializedVersion: 2
-        x: 723
+        x: 722
         y: 926
         width: 82
         height: 82
@@ -228,7 +228,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BLOCKS_1_5
+      name: Cube3
       rect:
         serializedVersion: 2
         x: 807
@@ -333,7 +333,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BLOCKS_1_10
+      name: Cube2
       rect:
         serializedVersion: 2
         x: 723
@@ -354,7 +354,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BLOCKS_1_11
+      name: Cube4
       rect:
         serializedVersion: 2
         x: 807
@@ -1410,7 +1410,7 @@ TextureImporter:
         x: 233
         y: 452
         width: 179
-        height: 119
+        height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2118,11 +2118,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BLOCKS_1_95
+      name: Ice1
       rect:
         serializedVersion: 2
-        x: 526
-        y: 342
+        x: 527
+        y: 341
         width: 205
         height: 20
       alignment: 0
@@ -2139,7 +2139,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BLOCKS_1_96
+      name: Ice2
       rect:
         serializedVersion: 2
         x: 733
@@ -2244,7 +2244,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BLOCKS_1_101
+      name: Ice3
       rect:
         serializedVersion: 2
         x: 319
@@ -2265,7 +2265,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BLOCKS_1_102
+      name: Ice4
       rect:
         serializedVersion: 2
         x: 526
@@ -4041,10 +4041,7 @@ TextureImporter:
     nameFileIdTable:
       BLOCKS_1_0: 149531764
       BLOCKS_1_1: 925068301
-      BLOCKS_1_10: -823517963
       BLOCKS_1_100: 693141027
-      BLOCKS_1_101: 831873367
-      BLOCKS_1_102: 1910020389
       BLOCKS_1_103: 895244643
       BLOCKS_1_104: 764781925
       BLOCKS_1_105: -852474141
@@ -4052,7 +4049,6 @@ TextureImporter:
       BLOCKS_1_107: -1205839372
       BLOCKS_1_108: -839951572
       BLOCKS_1_109: -154249325
-      BLOCKS_1_11: 1403200805
       BLOCKS_1_110: 1083253682
       BLOCKS_1_111: -462393138
       BLOCKS_1_112: 438817335
@@ -4156,7 +4152,6 @@ TextureImporter:
       BLOCKS_1_37: -1798865531
       BLOCKS_1_38: -154568092
       BLOCKS_1_39: 650720285
-      BLOCKS_1_4: 1194755603
       BLOCKS_1_40: -749787310
       BLOCKS_1_41: 2057268115
       BLOCKS_1_42: -19261446
@@ -4167,7 +4162,6 @@ TextureImporter:
       BLOCKS_1_47: -375080454
       BLOCKS_1_48: -379479099
       BLOCKS_1_49: -518851652
-      BLOCKS_1_5: -809385311
       BLOCKS_1_50: 1041787197
       BLOCKS_1_51: -112468893
       BLOCKS_1_52: 845993700
@@ -4212,8 +4206,6 @@ TextureImporter:
       BLOCKS_1_89: -1383921145
       BLOCKS_1_9: 276371076
       BLOCKS_1_93: -1350555560
-      BLOCKS_1_95: -898491288
-      BLOCKS_1_96: -1045513402
       BLOCKS_1_97: 302412067
       BLOCKS_1_98: -1479389821
       BLOCKS_1_99: 1007970245
@@ -4221,6 +4213,14 @@ TextureImporter:
       BigWood2: -1148223750
       BigWood3: 1425864117
       BigWood4: 132271724
+      Cube1: 1194755603
+      Cube2: -823517963
+      Cube3: -809385311
+      Cube4: 1403200805
+      Ice1: -898491288
+      Ice2: -1045513402
+      Ice3: 831873367
+      Ice4: 1910020389
       SmallWood1: -1810645911
       SmallWood2: -1713232042
       SmallWood3: 1713790641

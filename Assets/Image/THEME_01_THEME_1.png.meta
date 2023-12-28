@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: THEME_01_THEME_1_0
+      name: BgUp
       rect:
         serializedVersion: 2
         x: 0
@@ -144,7 +144,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: THEME_01_THEME_1_1
+      name: BgDown
       rect:
         serializedVersion: 2
         x: 0
@@ -175,8 +175,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      THEME_01_THEME_1_0: -1662041807
-      THEME_01_THEME_1_1: 2131892140
+      BgDown: 2131892140
+      BgUp: -1662041807
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
