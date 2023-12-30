@@ -103,6 +103,7 @@ MonoBehaviour:
   injureSpriteList:
   - {fileID: -1170019501, guid: 4b884a7cc00141b41aa053aca591a587, type: 3}
   - {fileID: -648810430, guid: 4b884a7cc00141b41aa053aca591a587, type: 3}
+  score: 3000
 --- !u!58 &5711658829708083570
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -152,7 +153,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 3
+  m_AngularDrag: 6
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:

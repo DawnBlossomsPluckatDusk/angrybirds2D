@@ -29,7 +29,12 @@ public class Destructible : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        currentHP -= (int)(collision.relativeVelocity.magnitude * 6);
+        TakeDamage((int)(collision.relativeVelocity.magnitude * 6));
+    }
+
+    public void TakeDamage(int damage)
+    {
+        currentHP -= damage;
         if (currentHP <= 0)
         {
             Dead();
@@ -42,11 +47,11 @@ public class Destructible : MonoBehaviour
             {
                 spriteRenderer.sprite = injureSpriteList[index];
             }
-            if(beforeSprite != spriteRenderer.sprite)
+            if (beforeSprite != spriteRenderer.sprite)
             {
                 PlayAudioCollision();
             }
-            
+
         }
     }
 

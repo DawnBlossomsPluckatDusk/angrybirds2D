@@ -150,7 +150,7 @@ public class Birds : MonoBehaviour
     {
 
     }
-    private void LoadNextBird()
+    protected void LoadNextBird()
     {
         Destroy(gameObject);
         GameObject.Instantiate(Resources.Load("Boom1"), transform.position, Quaternion.identity);

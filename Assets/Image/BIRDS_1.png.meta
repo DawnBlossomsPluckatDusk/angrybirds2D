@@ -1908,7 +1908,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BIRDS_1_93
+      name: SmallBird
       rect:
         serializedVersion: 2
         x: 956
@@ -3964,7 +3964,6 @@ TextureImporter:
       BIRDS_1_90: 525410074
       BIRDS_1_91: -790959103
       BIRDS_1_92: -1005161944
-      BIRDS_1_93: -5038706
       BIRDS_1_94: 1339394874
       BIRDS_1_95: 1701388567
       BIRDS_1_97: -853103376
@@ -3990,6 +3989,7 @@ TextureImporter:
       RedBird: 1852423599
       Sling_Left: 1408739181
       Sling_Right: -1170019501
+      SmallBird: -1005161944
       YellowBird: 1098301531
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
