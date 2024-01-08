@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 
 public enum BirdState
@@ -63,7 +64,7 @@ public class Birds : MonoBehaviour
     }
     private void OnMouseDown()
     {
-        if(state == BirdState.BeforeShot)
+        if(state == BirdState.BeforeShot && EventSystem.current.IsPointerOverGameObject() == false)
         {
             isMouseDown = true;
             SlingShot.instance.StartDraw(transform);
@@ -72,7 +73,7 @@ public class Birds : MonoBehaviour
     }
     private void OnMouseUp()
     {
-        if(state == BirdState.BeforeShot)
+        if(state == BirdState.BeforeShot && EventSystem.current.IsPointerOverGameObject() == false)
         {
             isMouseDown = false;
             SlingShot.instance.EndDraw();
