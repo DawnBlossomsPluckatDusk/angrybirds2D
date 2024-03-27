@@ -207,7 +207,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MENU_ELEMENTS_1_4
+      name: Fail
       rect:
         serializedVersion: 2
         x: 357
@@ -901,6 +901,7 @@ TextureImporter:
       3000_3: 1372577766
       3000_4: 1909171332
       5000: 2083278003
+      Fail: 1060617266
       MENU_ELEMENTS_1_0: -250274266
       MENU_ELEMENTS_1_1: 596615834
       MENU_ELEMENTS_1_10: -1934025938
@@ -919,7 +920,6 @@ TextureImporter:
       MENU_ELEMENTS_1_32: 259775509
       MENU_ELEMENTS_1_33: 963161269
       MENU_ELEMENTS_1_35: 1280664314
-      MENU_ELEMENTS_1_4: 1060617266
       MENU_ELEMENTS_1_5: -2049593249
       MENU_ELEMENTS_1_6: -360464608
       MENU_ELEMENTS_1_7: 1265513896

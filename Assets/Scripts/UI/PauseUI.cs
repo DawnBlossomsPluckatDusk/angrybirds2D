@@ -25,15 +25,15 @@ public class PauseUI : MonoBehaviour
     }
     public void OnContinueButtonClick()
     {
-        Time .timeScale = 1;
+        Time.timeScale = 1;
         animator.SetBool("IsShow", false);
     }
     public void OnLevelListButtonClick()
     {
-
+        GameManager.Instance.LevelList();
     }
     public void OnRestartButtonClick()
     {
-
+        GameManager.Instance.RestartLevel();
     }
 }
