@@ -20,3 +20,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 8971edf479d9a034cb097e557e1c5ed8, type: 2}
   - {fileID: 11400000, guid: bc491dc975097c94995c0a15bb67dae1, type: 2}
   - {fileID: 11400000, guid: aa861af05f176f24e80abbad385639c0, type: 2}
+  selectedMapID: 1
+  selectLevelID: 1
