@@ -96,7 +96,6 @@ public class GameManager : MonoBehaviour
 
     public void RestartLevel()
     {
-        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     public void LevelList()
@@ -105,7 +104,6 @@ public class GameManager : MonoBehaviour
     }
     public void NextLevel()
     {
-        gameSO.UpdateLevel(starCount);
         gameSO.selectLevelID = gameSO.selectLevelID + 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }

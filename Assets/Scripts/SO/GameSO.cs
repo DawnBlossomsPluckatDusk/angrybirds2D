@@ -30,12 +30,13 @@ public class GameSO : ScriptableObject
                     mapArray[selectedMapID].starnumberOfLevel[0] = 0;
                 }
             }
-            else
+            //判断是否是最后一关
+            if(selectLevelID < mapArray[selectedMapID - 1].starnumberOfLevel.Length)
             {
                 //判读下一关卡是否解锁
-                if (mapArray[selectedMapID - 1].starnumberOfLevel[selectedMapID] == -1)
+                if (mapArray[selectedMapID - 1].starnumberOfLevel[selectLevelID] == -1)
                 {
-                    mapArray[selectedMapID - 1].starnumberOfLevel[selectedMapID]= 0;
+                    mapArray[selectedMapID - 1].starnumberOfLevel[selectLevelID]= 0;
                 }
             }
         }
