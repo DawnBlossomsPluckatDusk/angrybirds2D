@@ -1587,6 +1587,7 @@ GameObject:
   - component: {fileID: 1599526115}
   - component: {fileID: 1599526117}
   - component: {fileID: 1599526118}
+  - component: {fileID: 1599526119}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -1671,6 +1672,20 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 10ea50ad52f85f04d99128c58ee3b632, type: 3}
   woodCollision: {fileID: 8300000, guid: 53dea70923c95cb45864ff65eeb38785, type: 3}
   woodDestoryed: {fileID: 8300000, guid: f7872a240c3a867458646a6a01dde6a2, type: 3}
+--- !u!114 &1599526119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599526114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0275fd33d2e6241508836916cf418d5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 519420031}
+  zoomSpeed: 0.1
 --- !u!1 &1663288527
 GameObject:
   m_ObjectHideFlags: 0

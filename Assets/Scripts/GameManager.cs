@@ -105,6 +105,11 @@ public class GameManager : MonoBehaviour
     public void NextLevel()
     {
         gameSO.selectLevelID = gameSO.selectLevelID + 1;
+        if(gameSO.selectLevelID > gameSO.mapArray[gameSO.selectedMapID].starnumberOfLevel.Length && gameSO.selectedMapID < gameSO.mapArray.Length - 1)
+        {
+            gameSO.selectedMapID += 1;
+            gameSO.selectLevelID = 1;
+        }
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
