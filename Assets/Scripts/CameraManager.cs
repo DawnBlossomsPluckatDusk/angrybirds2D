@@ -4,26 +4,25 @@ using UnityEngine;
 
 public class CameraManager : MonoBehaviour
 {
-    public Camera mainCamera; // 在Inspector中设置主相机  
+    public Camera mainCamera; // 假设这个变量已经在Inspector中关联了主相机  
     public float zoomSpeed = 0.1f; // 缩放速度  
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetAxis("Mouse ScrollWheel") > 0f) // 滚轮向前滚动  
+        // 假设你想要通过某个按键（比如鼠标滚轮向上）来放大相机视野  
+        if (Input.GetAxis("Mouse ScrollWheel") > 0f)
         {
-            mainCamera.fieldOfView -= zoomSpeed; // 缩小视场角，放大界面  
-            mainCamera.fieldOfView = Mathf.Clamp(mainCamera.fieldOfView, 1f, 120f); // 限制视场角范围  
+            // 增加orthographicSize的值以放大视野  
+            mainCamera.orthographicSize += zoomSpeed;
+            // 确保orthographicSize不会变得过大  
+            mainCamera.orthographicSize = Mathf.Min(mainCamera.orthographicSize, 20);
         }
-        else if (Input.GetAxis("Mouse ScrollWheel") < 0f) // 滚轮向后滚动  
+        else if (Input.GetAxis("Mouse ScrollWheel") < 0f)
         {
-            mainCamera.fieldOfView += zoomSpeed; // 增大视场角，缩小界面  
-            mainCamera.fieldOfView = Mathf.Clamp(mainCamera.fieldOfView, 1f, 120f); // 限制视场角范围  
+            // 减小orthographicSize的值以缩小视野  
+            mainCamera.orthographicSize -= zoomSpeed;
+            // 确保orthographicSize不会变得过小  
+            mainCamera.orthographicSize = Mathf.Max(mainCamera.orthographicSize, 5);
         }
     }
 }

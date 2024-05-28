@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1501803733956451447}
   - component: {fileID: 8239623080247027052}
   m_Layer: 0
-  m_Name: Pig3
+  m_Name: Pig4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 142876965
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 603204553, guid: 4b884a7cc00141b41aa053aca591a587, type: 3}
+  m_Sprite: {fileID: -891527356, guid: 4b884a7cc00141b41aa053aca591a587, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -101,9 +101,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 230
   injureSpriteList:
-  - {fileID: 603204553, guid: 4b884a7cc00141b41aa053aca591a587, type: 3}
-  - {fileID: 288876978, guid: 4b884a7cc00141b41aa053aca591a587, type: 3}
-  - {fileID: 1155920841, guid: 4b884a7cc00141b41aa053aca591a587, type: 3}
+  - {fileID: -891527356, guid: 4b884a7cc00141b41aa053aca591a587, type: 3}
+  - {fileID: -897614272, guid: 4b884a7cc00141b41aa053aca591a587, type: 3}
+  - {fileID: -25671790, guid: 4b884a7cc00141b41aa053aca591a587, type: 3}
   score: 3000
 --- !u!58 &1501803733956451447
 CircleCollider2D:
@@ -137,9 +137,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.012002468, y: -0.06001365}
+  m_Offset: {x: -0.016642094, y: -0.19282085}
   serializedVersion: 2
-  m_Radius: 0.43683195
+  m_Radius: 0.59828377
 --- !u!50 &8239623080247027052
 Rigidbody2D:
   serializedVersion: 4

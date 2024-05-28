@@ -144,7 +144,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BIRDS_1_1
+      name: pig4_1
       rect:
         serializedVersion: 2
         x: 41
@@ -165,7 +165,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BIRDS_1_2
+      name: pig4_2
       rect:
         serializedVersion: 2
         x: 169
@@ -228,7 +228,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BIRDS_1_5
+      name: pig4_3
       rect:
         serializedVersion: 2
         x: 553
@@ -3808,7 +3808,6 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BIRDS_1_1: -891527356
       BIRDS_1_10: -1146790750
       BIRDS_1_100: -1983634280
       BIRDS_1_101: 2554187
@@ -3894,7 +3893,6 @@ TextureImporter:
       BIRDS_1_180: -1424054930
       BIRDS_1_181: 232724596
       BIRDS_1_182: -108026397
-      BIRDS_1_2: -897614272
       BIRDS_1_21: -292491386
       BIRDS_1_22: 374050549
       BIRDS_1_23: 181744472
@@ -3924,7 +3922,6 @@ TextureImporter:
       BIRDS_1_47: 372518428
       BIRDS_1_48: 1040820865
       BIRDS_1_49: -432180288
-      BIRDS_1_5: -25671790
       BIRDS_1_50: 1876432096
       BIRDS_1_51: -297221463
       BIRDS_1_52: 76105872
@@ -3991,6 +3988,9 @@ TextureImporter:
       Sling_Right: -1170019501
       SmallBird: -1005161944
       YellowBird: 1098301531
+      pig4_1: -891527356
+      pig4_2: -897614272
+      pig4_3: -25671790
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
