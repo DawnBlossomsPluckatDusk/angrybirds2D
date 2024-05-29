@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0db70b205ccfa749991983d464a0c46, type: 3}
   m_Name: Map3
   m_EditorClassIdentifier: 
-  starnumberOfMap: -1
-  starnumberOfLevel: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+  starnumberOfMap: 3
+  starnumberOfLevel: ffffffffffffffffffffffffffffffff0300000000000000ffffffff00000000
