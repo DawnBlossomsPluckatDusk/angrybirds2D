@@ -277,4 +277,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 1
   flySpeed: 13
-  boomRadius: 2.5
+  boomRadius: 3

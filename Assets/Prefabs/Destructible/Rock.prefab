@@ -171,7 +171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a80c293331458f48be83597001da74f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 100
+  maxHP: 150
   injureSpriteList:
   - {fileID: 895244643, guid: fe068e00d964dd34d9f7b67a12805f97, type: 3}
   - {fileID: 1065171908, guid: fe068e00d964dd34d9f7b67a12805f97, type: 3}

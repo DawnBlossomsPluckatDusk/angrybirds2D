@@ -99,12 +99,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ae5d0949a26f3b46ba5e4407aaffc04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHP: 230
+  maxHP: 250
   injureSpriteList:
   - {fileID: 603204553, guid: 4b884a7cc00141b41aa053aca591a587, type: 3}
   - {fileID: 288876978, guid: 4b884a7cc00141b41aa053aca591a587, type: 3}
   - {fileID: 1155920841, guid: 4b884a7cc00141b41aa053aca591a587, type: 3}
-  score: 3000
+  score: 5000
 --- !u!58 &1501803733956451447
 CircleCollider2D:
   m_ObjectHideFlags: 0
